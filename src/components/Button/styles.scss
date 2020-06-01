@@ -1,0 +1,16 @@
+.btn {
+  background-color: red;
+  font-size: 22px;
+
+  &--green {
+    background-color: green;
+  }
+
+  &--yellow {
+    background-color: yellow;
+  }
+}
+
+// .btn
+// .btn--green
+// .btn-yellow
