@@ -1,10 +1,11 @@
 import React from 'react';
 
-function Link() {
+import './styles.css';
+
+function Link({ active }) {
+	const activeClass = active ? 'menu__link--active' : '';
 	return(
-		<div>
-			<a href="/">Name</a>
-		</div>
+		<a href="/" className={`menu__link ${activeClass}`}>Name</a>
 	);
 }
 
