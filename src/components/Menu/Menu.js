@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Button from '../Button';
+import Link from '../Link';
 
 function Menu() {
 	return(
   	<div>
     	Menu
-      <Button />
+      <Link />
     </div>
   );
 }
